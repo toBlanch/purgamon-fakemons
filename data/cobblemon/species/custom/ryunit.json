@@ -1,0 +1,282 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1116,
+  "name": "Ryunit",
+  "primaryType": "steel",
+  "secondaryType": "electric",
+  "maleRatio": -1,
+  "height": 2,
+  "weight": 4000,
+  "pokedex": [
+    "cobblemon.species.ryunit.desc"
+  ],
+  "labels": [
+    "genpurg"
+  ],
+  "aspects": [],
+  "abilities": [
+    "levitate",
+    "h:filter"
+  ],
+  "eggGroups": [
+    "mineral",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 45,
+    "defence": 60,
+    "special_attack": 120,
+    "special_defence": 88,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 182,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 15,
+  "baseFriendship": 0,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 2.1,
+    "height": 4.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "iron_ingot",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "bone",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:jaw_fossil",
+        "percentage": 1
+      }
+    ]
+  },
+  "moves": [
+    "1:dragonrage", 
+    "1:doubleshock",
+    "1:metalsound",
+    "1:tackle",
+    "5:bind",
+    "8:roar",
+    "11:charge",
+    "13:mirrorshot",
+    "15:chargebeam",
+    "20:quickattack",
+    "24:stomp",
+    "27:metalclaw",
+    "29:spark",
+    "31:lockon",
+    "32:megapunch",
+    "42:smartstrike",
+    "47:takedown",
+    "50:wildcharge",
+    "54:outrage",
+    "60:heavyslam",
+    "68:flashcannon",
+    "73:thunderbolt",
+    "tm:autotomize",
+    "tm:bodyslam",
+    "tm:bulletpunch",
+    "tm:charm",
+    "tm:circlethrow",
+    "tm:electroball",
+    "tm:finalgambit",
+    "tm:fling",
+    "tm:freezedry",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:retaliate",
+    "tm:return",
+    "tm:skydrop",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:submission",
+    "tm:thunderwave",
+    "tm:wideguard",
+    "tm:zapcannon"
+  ],
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Berserk",
+      "primaryType": "steel",
+      "maleRatio": -1,
+      "height": 2,
+      "weight": 4000,
+      "pokedex": [
+        "cobblemon.species.ryunit-berserk.desc"
+      ],
+      "labels": [
+        "genpurg"
+      ],
+      "aspects": [
+        "berserk"
+      ],
+      "abilities": [
+        "levitate",
+        "h:filter"
+      ],
+      "eggGroups": [
+        "mineral",
+        "dragon"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 120,
+        "defence": 88,
+        "special_attack": 45,
+        "special_defence": 60,
+        "speed": 115
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 182,
+      "experienceGroup": "medium_slow",
+      "catchRate": 45,
+      "eggCycles": 15,
+      "baseFriendship": 0,
+      "baseScale": 1,
+      "hitbox": {
+        "width": 2.1,
+        "height": 4.2,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "iron_ingot",
+            "quantityRange": "0-3"
+          },
+          {
+            "item": "bone",
+            "quantityRange": "1-2"
+          },
+          {
+            "item": "cobblemon:jaw_fossil",
+            "percentage": 1
+          }
+        ]
+      },
+      "moves": [
+        "1:dragonrage", 
+        "1:doubleshock",
+        "1:metalsound",
+        "1:tackle",
+        "5:bind",
+        "8:roar",
+        "11:charge",
+        "13:mirrorshot",
+        "15:chargebeam",
+        "20:quickattack",
+        "24:stomp",
+        "27:metalclaw",
+        "29:spark",
+        "31:lockon",
+        "32:megapunch",
+        "42:smartstrike",
+        "47:takedown",
+        "50:wildcharge",
+        "54:outrage",
+        "60:heavyslam",
+        "68:flashcannon",
+        "73:thunderbolt",
+        "tm:autotomize",
+        "tm:bodyslam",
+        "tm:bulletpunch",
+        "tm:charm",
+        "tm:circlethrow",
+        "tm:electroball",
+        "tm:finalgambit",
+        "tm:fling",
+        "tm:freezedry",
+        "tm:frustration",
+        "tm:gigaimpact",
+        "tm:hyperbeam",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:retaliate",
+        "tm:return",
+        "tm:skydrop",
+        "tm:solarbeam",
+        "tm:solarblade",
+        "tm:steelbeam",
+        "tm:steelroller",
+        "tm:strength",
+        "tm:submission",
+        "tm:thunderwave",
+        "tm:wideguard",
+        "tm:zapcannon"
+      ],
+      "evolutions": [],
+      "battleOnly": false
+    }
+  ]
+}

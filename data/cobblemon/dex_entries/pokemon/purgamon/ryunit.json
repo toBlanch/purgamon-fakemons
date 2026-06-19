@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ryunit",
+  "speciesId": "cobblemon:ryunit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

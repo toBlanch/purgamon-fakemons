@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flammentle",
+  "speciesId": "cobblemon:flammentle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

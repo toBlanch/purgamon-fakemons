@@ -1,0 +1,301 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1113,
+  "name": "Averist",
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "height": 11,
+  "weight": 320,
+  "pokedex": [
+    "cobblemon.species.averist.desc1",
+    "cobblemon.species.averist.desc2"
+  ],
+  "labels": [
+    "gen1"
+  ],
+  "aspects": [],
+  "abilities": [
+    "magicguard",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 70,
+    "defence": 62,
+    "special_attack": 104,
+    "special_defence": 74,
+    "speed": 112
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "catchRate": 100,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.4,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.5
+      },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "averon",
+          "tier": 2
+        },
+        {
+          "pokemon": "averist",
+          "tier": 3
+        }
+      ]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:twisted_spoon",
+        "percentage": 5.0
+      },
+
+      {
+        "item": "cobblemon:salac_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:peck",
+    "11:gust",
+    "15:quickattack",
+    "18:instruct",
+    "20:featherdance",
+    "25:swift",
+    "26:agility",
+    "29:healpulse",
+    "34:wingattack",
+    "37:healpulse",
+    "39:roost",
+    "42:psybeam",
+    "44:bravebird",
+    "45:tailwind",
+    "47:psychic",
+    "48:fly",
+    "50:defog",
+    "55:hurricane",
+    "egg:expandingforce",
+    "egg:feintattack",
+    "egg:foresight",
+    "egg:pursuit",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:aurasphere",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:healbell",
+    "tm:healpulse",
+    "tm:hurricane",
+    "tm:instruct",
+    "tm:lightscreen",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:rest",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:psyshock",
+    "tutor:refresh",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:tailwind"
+  ],
+  "preEvolution": "averon",
+  "evolutions": [],
+  "forms": [],
+  "riding": {
+    "stats": {
+      "SPEED": {
+        "ranges": {
+          "LAND": "10-20",
+          "AIR": "30-75"
+        }
+      },
+      "ACCELERATION": {
+        "ranges": {
+          "LAND": "5-100",
+          "AIR": "25-60"
+        }
+      },
+      "SKILL": {
+        "ranges": {
+          "LAND": "15-30",
+          "AIR": "30-60"
+        }
+      },
+      "JUMP": {
+        "ranges": {
+          "LAND": "10-20",
+          "AIR": "25-50"
+        }
+      },
+      "STAMINA": {
+        "ranges": {
+          "LAND": "15-30",
+          "AIR": "25-60"
+        }
+      }
+    },
+    "behaviour": {
+      "key": "cobblemon:composite",
+      "transitionStrategy": "cobblemon:strategy/jump",
+      "defaultBehaviour": {
+        "key": "cobblemon:land/horse",
+        "gravity": "q.gravity * (0.1 + (q.passenger_count - 1) * 0.1)",
+        "speed": "Math.clamp(q.entity.velocity.horizontal_magnitude + 0.33, 0, 1)",
+        "jumpVector": [
+          0,
+          "0.3*q.jump_strength/50",
+          "-1 * 0.5*q.jump_strength/50"
+        ]
+      },
+      "alternateBehaviour": {
+        "key": "cobblemon:air/bird",
+        "gravity": "q.gravity * (0.1 + (q.passenger_count - 1) * 0.1)",
+        "speed": "Math.clamp(q.entity.velocity.horizontal_magnitude + 0.33, 0, 1)",
+        "jumpVector": [
+          0,
+          "0.3*q.jump_strength/50",
+          0
+        ]
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0,
+          "y": 1.5,
+          "z": -0.5
+        },
+        "poseOffsets": [
+          {
+            "poseTypes": [
+              "HOVER"
+            ],
+            "offset": {
+              "x": 0,
+              "y": 0.7,
+              "z": -1
+            }
+          },
+          {
+            "poseTypes": [
+              "FLY"
+            ],
+            "offset": {
+              "x": 0,
+              "y": 0.2,
+              "z": -1
+            }
+          }
+        ]
+      },
+      {
+        "offset": {
+          "x": 0,
+          "y": 1.5,
+          "z": -1.5
+        },
+        "poseOffsets": [
+          {
+            "poseTypes": [
+              "HOVER"
+            ],
+            "offset": {
+              "x": 0,
+              "y": 0.4,
+              "z": -1
+            }
+          },
+          {
+            "poseTypes": [
+              "FLY"
+            ],
+            "offset": {
+              "x": 0,
+              "y": 0.2,
+              "z": -0.2
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

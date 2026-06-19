@@ -1,0 +1,209 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1112,
+  "name": "Averon",
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "maleRatio": 0.5,
+  "height": 11,
+  "weight": 320,
+  "pokedex": [
+    "cobblemon.species.averon.desc1",
+    "cobblemon.species.averon.desc2"
+  ],
+  "labels": [
+    "genpurg"
+  ],
+  "aspects": [],
+  "abilities": [
+    "keeneye",
+    "h:friendguard"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 70,
+    "defence": 62,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 82
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "baseExperienceYield": 122,
+  "experienceGroup": "medium_slow",
+  "catchRate": 100,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "averi",
+          "tier": 1
+        },
+        {
+          "pokemon": "averon",
+          "tier": 2
+        },
+        {
+          "pokemon": "averist",
+          "tier": 3
+        }
+      ]
+    }
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "cobblemon:sharp_beak",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:salac_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:peck",
+    "11:gust",
+    "15:quickattack",
+    "20:featherdance",
+    "25:swift",
+    "26:agility",
+    "34:wingattack",
+    "39:roost",
+    "42:psybeam",
+    "44:bravebird",
+    "45:tailwind",
+    "48:fly",
+    "50:defog",
+    "55:hurricane",
+    "egg:feintattack",
+    "egg:foresight",
+    "egg:pursuit",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:aurasphere",
+    "tm:bravebird",
+    "tm:defog",
+    "tm:dualwingbeat",
+    "tm:endure",
+    "tm:facade",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:hurricane",
+    "tm:lightscreen",
+    "tm:pluck",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:rest",
+    "tm:roost",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:swift",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:uturn",
+    "tm:weatherball",
+    "tm:workup",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:defog",
+    "tutor:dualwingbeat",
+    "tutor:refresh",
+    "tutor:rest",
+    "tutor:roost",
+    "tutor:sleeptalk",
+    "tutor:tailwind"
+  ],
+  "preEvolution": "averi",
+  "evolutions": [
+    {
+      "id": "averon_averist",
+      "variant": "level_up",
+      "result": "averist",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "healpulse",
+        "healbell"
+      ],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "riding": {
+    "stats": {
+      "SPEED": {
+        "ranges": "30-60"
+      },
+      "ACCELERATION": {
+        "ranges": "30-60"
+      },
+      "SKILL": {
+        "ranges": "30-60"
+      },
+      "JUMP": {
+        "ranges": "25-50"
+      },
+      "STAMINA": {
+        "ranges": "30-60"
+      }
+    },
+    "seats": [],
+    "behaviour": {
+      "key": "cobblemon:air/glider"
+    }
+  }
+}

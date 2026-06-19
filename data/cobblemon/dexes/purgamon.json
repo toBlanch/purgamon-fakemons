@@ -1,0 +1,19 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:purgamon",
+  "sortOrder": 21,
+  "entries": [
+    "cobblemon:averi",
+    "cobblemon:averon",
+    "cobblemon:averist",
+    "cobblemon:ryuka",
+    "cobblemon:rymodel",
+    "cobblemon:ryunit",
+    "cobblemon:budjolt",
+    "cobblemon:shockatiel",
+    "cobblemon:raucatoo",
+    "cobblemon:crepitule",
+    "cobblemon:flammentle",
+    "cobblemon:blazeufel"
+  ]
+}

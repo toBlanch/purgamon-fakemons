@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raucatoo",
+  "speciesId": "cobblemon:raucatoo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
