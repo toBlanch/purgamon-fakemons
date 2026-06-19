@@ -15,6 +15,7 @@
   ],
   "aspects": [],
   "abilities": [
+    "static",
     "lightningrod",
     "h:electromorphosis"
   ],

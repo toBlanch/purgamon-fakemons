@@ -15,8 +15,7 @@
   ],
   "aspects": [],
   "abilities": [
-    "levitate",
-    "h:filter"
+    "levitate"
   ],
   "eggGroups": [
     "mineral",
@@ -43,10 +42,10 @@
   "catchRate": 45,
   "eggCycles": 15,
   "baseFriendship": 0,
-  "baseScale": 1,
+  "baseScale": 0.75,
   "hitbox": {
     "width": 2.1,
-    "height": 4.2,
+    "height": 4.5,
     "fixed": false
   },
   "behaviour": {
@@ -143,7 +142,7 @@
       "primaryType": "steel",
       "maleRatio": -1,
       "height": 2,
-      "weight": 4000,
+      "weight": 3600,
       "pokedex": [
         "cobblemon.species.ryunit-berserk.desc"
       ],
@@ -154,8 +153,7 @@
         "berserk"
       ],
       "abilities": [
-        "levitate",
-        "h:filter"
+        "runaway"
       ],
       "eggGroups": [
         "mineral",
@@ -182,10 +180,10 @@
       "catchRate": 45,
       "eggCycles": 15,
       "baseFriendship": 0,
-      "baseScale": 1,
+      "baseScale": 0.75,
       "hitbox": {
         "width": 2.1,
-        "height": 4.2,
+        "height": 4.5,
         "fixed": false
       },
       "behaviour": {
