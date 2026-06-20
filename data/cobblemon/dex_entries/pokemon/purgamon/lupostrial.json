@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lupostrial",
+  "speciesId": "cobblemon:lupostrial",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

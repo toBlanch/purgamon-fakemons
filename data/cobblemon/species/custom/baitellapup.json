@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1504,
+  "name": "Baitellapup",
+  "primaryType": "fire",
+  "maleRatio": 0.75,
+  "height": 7,
+  "weight": 190,
+  "pokedex": [
+    "cobblemon.species.baitellapup.desc"
+  ],
+  "labels": [
+    "genpurg"
+  ],
+  "aspects": [],
+  "abilities": [
+    "runaway"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 70,
+  "experienceGroup": "slow",
+  "catchRate": 190,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1.1,
+    "height": 1.15,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "entityInteract": {
+      "avoidedBySkeleton": true,
+      "avoidedByFox": true
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true
+      }
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "fireImmune": true
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:rawst_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle"
+  ],
+  "evolutions": [
+    {
+      "id": "baitellapup_lupsostrial",
+      "variant": "item_interact",
+      "result": "lupsostrial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ],
+  "forms": []
+}

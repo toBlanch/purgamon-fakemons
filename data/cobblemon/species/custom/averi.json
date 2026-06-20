@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 1111,
+  "nationalPokedexNumber": 1501,
   "name": "Averi",
   "primaryType": "normal",
   "secondaryType": "flying",
@@ -126,7 +126,6 @@
     "41:tailwind",
     "44:fly",
     "48:defog",
-    "55:hurricane",
     "egg:feintattack",
     "egg:foresight",
     "egg:pursuit",
@@ -141,7 +140,6 @@
     "tm:facade",
     "tm:featherdance",
     "tm:fly",
-    "tm:hurricane",
     "tm:pluck",
     "tm:protect",
     "tm:rest",

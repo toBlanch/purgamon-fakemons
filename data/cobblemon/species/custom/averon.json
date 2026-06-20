@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 1112,
+  "nationalPokedexNumber": 1502,
   "name": "Averon",
   "primaryType": "psychic",
   "secondaryType": "flying",
@@ -122,7 +122,6 @@
     "45:tailwind",
     "48:fly",
     "50:defog",
-    "55:hurricane",
     "egg:feintattack",
     "egg:foresight",
     "egg:pursuit",
@@ -138,7 +137,6 @@
     "tm:facade",
     "tm:featherdance",
     "tm:fly",
-    "tm:hurricane",
     "tm:lightscreen",
     "tm:pluck",
     "tm:protect",

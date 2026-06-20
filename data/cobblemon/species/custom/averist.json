@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 1113,
+  "nationalPokedexNumber": 1503,
   "name": "Averist",
   "primaryType": "psychic",
   "secondaryType": "flying",
@@ -148,7 +148,6 @@
     "tm:fly",
     "tm:healbell",
     "tm:healpulse",
-    "tm:hurricane",
     "tm:instruct",
     "tm:lightscreen",
     "tm:pluck",
