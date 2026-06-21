@@ -15,7 +15,7 @@
   ],
   "aspects": [],
   "abilities": [
-    "levitate"
+    "backunit"
   ],
   "eggGroups": [
     "mineral",
@@ -147,7 +147,7 @@
         "cobblemon.species.ryunit-berserk.desc"
       ],
       "labels": [
-        "genpurg"
+        "backunit"
       ],
       "aspects": [
         "berserk"
@@ -183,7 +183,7 @@
       "baseScale": 0.75,
       "hitbox": {
         "width": 2.1,
-        "height": 4.5,
+        "height": 2.5,
         "fixed": false
       },
       "behaviour": {
@@ -274,7 +274,7 @@
         "tm:zapcannon"
       ],
       "evolutions": [],
-      "battleOnly": false
+      "battleOnly": true
     }
   ]
 }

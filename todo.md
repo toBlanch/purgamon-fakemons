@@ -1,5 +1,5 @@
 # Averist 
-* Advantageous Breeze
+* Finish Advantageous Breeze
 * Models
 
 # Selcanirave:
@@ -9,7 +9,7 @@
 * Models
 
 # Ryunit:
-* Back unit
+* Back unit - Stop from activating if already activated
 * Riding stats
 * Flesh out stage 1 and 2
 * Spawn data
@@ -31,5 +31,7 @@
 
 # Terrachne
 * Currently Crustle clone
+* Prismatic Bulwark
+* Rename Filter to Prismatic Shell?
 * Spawn data
 * Models

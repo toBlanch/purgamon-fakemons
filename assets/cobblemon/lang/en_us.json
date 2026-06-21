@@ -30,7 +30,7 @@
   "cobblemon.species.raucatoo.name": "Raucatoo",
   "cobblemon.species.raucatoo.desc": "Its voice booms like thunder, and with the flashing of its electrified crest this Pokemon's presence is impossible to ignore. While it is rebellious by nature, a patient Trainer may find its attention-seeking antics endearing.",
 
-  "cobblemon.species.crepitule.name": "Budjolt",
+  "cobblemon.species.crepitule.name": "Crepitule",
   "cobblemon.species.crepitule.desc": "Unknown funny bug.",
   "cobblemon.species.flammentle.name": "Flammentle",
   "cobblemon.species.flammentle.desc": "I found this bug and squished it with my big wheel.",
@@ -44,5 +44,13 @@
   "cobblemon.species.terrachne.name": "Terrachne",
   "cobblemon.species.terrachne.desc": "It channels light through the faceted crystals on its abdomen to emit a blinding glare that deeply disorients its opponents. To protect itself, it locks its massive, crystallized front limbs together to form an impenetrable physical barrier.",
   
+
+  "cobblemon.move.morningbreeze": "Morning Breeze",
+  "cobblemon.move.morningbreeze.desc": "The user creates a fresh breeze, allowing it to quickly swap places with an ally. A harsh breeze will damage the opponent and a gentle breeze will restore the ally, healing it for 50% of the damage dealt.",
+
+  "cobblemon.move.backunit": "Back Unit",
+  "cobblemon.move.backunit.desc": "Unit on the back.",
+
+
   "cobblemon.ui.pokedex.region.purgamon": "Purgamon"
 }
