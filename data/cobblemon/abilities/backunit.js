@@ -1,6 +1,5 @@
 ({
   onStart(pokemon) {
-    this.effectState.berserkTriggered = false;
     if (pokemon.hasType("Electric")) {
       pokemon.volatiles["magnetrise"] = {
         id: "magnetrise",
@@ -10,7 +9,7 @@
     }
   },
   onUpdate(pokemon) {
-    if (pokemon.hasType("Electric")) {
+    if (pokemon.hasType("Electric") || pokemon.species.name === "Ryunit-Berserk") {
       return;
     }
 
@@ -18,9 +17,6 @@
       delete pokemon.volatiles["magnetrise"];
     }
 
-    if (this.effectState.berserkTriggered) return;
-
-    this.effectState.berserkTriggered = true;
     if (pokemon.formeChange("Ryunit-Berserk", this.effect, true, "[silent]")) {
       this.add("-activate", pokemon, "ability: Back Unit", "Berserk Mode");
     }

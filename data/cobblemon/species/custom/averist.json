@@ -111,6 +111,7 @@
     ]
   },
   "moves": [
+    "1:current",
     "1:tackle",
     "1:peck",
     "11:gust",
@@ -121,7 +122,7 @@
     "26:agility",
     "29:healpulse",
     "34:wingattack",
-    "37:healpulse",
+    "37:healbell",
     "39:roost",
     "42:psybeam",
     "44:bravebird",
@@ -129,7 +130,6 @@
     "47:psychic",
     "48:fly",
     "50:defog",
-    "55:oblivionwing",
     "egg:expandingforce",
     "egg:feintattack",
     "egg:foresight",
@@ -140,6 +140,7 @@
     "tm:airslash",
     "tm:aurasphere",
     "tm:bravebird",
+    "tm:current",
     "tm:defog",
     "tm:dualwingbeat",
     "tm:endure",

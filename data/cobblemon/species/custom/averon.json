@@ -114,7 +114,6 @@
     "15:quickattack",
     "20:featherdance",
     "25:swift",
-    "28:advantagousbreeze",
     "26:agility",
     "34:wingattack",
     "39:roost",
@@ -132,6 +131,7 @@
     "tm:airslash",
     "tm:aurasphere",
     "tm:bravebird",
+    "tm:current",
     "tm:defog",
     "tm:dualwingbeat",
     "tm:endure",
@@ -171,8 +171,7 @@
       "result": "averist",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "healpulse",
-        "healbell"
+        "current"
       ],
       "requirements": [
         {

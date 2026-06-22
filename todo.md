@@ -1,6 +1,5 @@
 # Averist 
-* Implement Feather Barrage
-* Give Current and Feather Barrage to other flying types
+* Give Current to other flying types
 * Models
 
 # Selcanirave:
@@ -11,20 +10,19 @@
 
 # Ryunit:
 * Riding stats
-* Flesh out stage 1 and 2
 * Spawn data
 * Pokedex entries
 * Models
 
 # Raucatoo:
 * Moves
-* Size/Weight
-* Base friendship and other misc stats
+* Flesh out non battle stats
 * Spawn data
 * Models
 
 # Blazeufel
-* Currently ... to be honest I forget what it's a clone of but I have data I can implement
+* Implement Chemical
+* Flesh out non battle stats
 * Spawn data
 * Pokedex entries
 * Models
@@ -35,3 +33,7 @@
 * Rename Filter to Prismatic Shell?
 * Spawn data
 * Models
+
+# Moves
+* Feather Barrage
+* Updraft

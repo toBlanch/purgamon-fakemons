@@ -2,8 +2,8 @@
   "implemented": true,
   "nationalPokedexNumber": 1514,
   "name": "flammentle",
-  "primaryType": "normal",
-  "secondaryType": "flying",
+  "primaryType": "fire",
+  "secondaryType": "bug",
   "maleRatio": 0.5,
   "height": 3,
   "weight": 18,
@@ -15,8 +15,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "keeneye",
-    "h:bigpecks"
+    "blaze",
+    "h:flamebody"
   ],
   "eggGroups": [
     "flying"
