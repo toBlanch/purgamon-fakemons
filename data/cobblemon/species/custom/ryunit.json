@@ -15,7 +15,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "backunit"
+    "backunit",
+    "h:backunit"
   ],
   "eggGroups": [
     "mineral",
@@ -37,10 +38,10 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 182,
+  "baseExperienceYield": 234,
   "experienceGroup": "medium_slow",
   "catchRate": 45,
-  "eggCycles": 15,
+  "eggCycles": 25,
   "baseFriendship": 0,
   "baseScale": 0.75,
   "hitbox": {
@@ -59,8 +60,8 @@
     },
     "resting": {
       "canSleep": true,
-      "light": "0-4",
-      "willSleepOnBed": true,
+      "light": "0-3",
+      "willSleepOnBed": false,
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
     },
@@ -86,8 +87,8 @@
     ]
   },
   "moves": [
-    "1:dragonrage", 
     "1:doubleshock",
+    "1:dragonrage",
     "1:metalsound",
     "1:tackle",
     "5:bind",
@@ -108,15 +109,19 @@
     "60:heavyslam",
     "68:flashcannon",
     "73:thunderbolt",
+    "egg:fling",
+    "egg:freezedry",
+    "egg:solarbeam",
+    "tm:ancientpower",
     "tm:autotomize",
     "tm:bodyslam",
+    "tm:bulldoze",
     "tm:bulletpunch",
     "tm:charm",
     "tm:circlethrow",
+    "tm:dragontail",
     "tm:electroball",
     "tm:finalgambit",
-    "tm:fling",
-    "tm:freezedry",
     "tm:frustration",
     "tm:gigaimpact",
     "tm:hyperbeam",
@@ -125,8 +130,6 @@
     "tm:retaliate",
     "tm:return",
     "tm:skydrop",
-    "tm:solarbeam",
-    "tm:solarblade",
     "tm:steelbeam",
     "tm:steelroller",
     "tm:strength",
@@ -147,13 +150,14 @@
         "cobblemon.species.ryunit-berserk.desc"
       ],
       "labels": [
-        "backunit"
+        "genpurg"
       ],
       "aspects": [
         "berserk"
       ],
       "abilities": [
-        "runaway"
+        "backunit",
+        "h:backunit"
       ],
       "eggGroups": [
         "mineral",
@@ -175,15 +179,15 @@
         "special_defence": 0,
         "speed": 0
       },
-      "baseExperienceYield": 182,
+      "baseExperienceYield": 234,
       "experienceGroup": "medium_slow",
       "catchRate": 45,
-      "eggCycles": 15,
+      "eggCycles": 25,
       "baseFriendship": 0,
       "baseScale": 0.75,
       "hitbox": {
         "width": 2.1,
-        "height": 2.5,
+        "height": 4.5,
         "fixed": false
       },
       "behaviour": {
@@ -197,8 +201,8 @@
         },
         "resting": {
           "canSleep": true,
-          "light": "0-4",
-          "willSleepOnBed": true,
+          "light": "0-3",
+          "willSleepOnBed": false,
           "drowsyChance": 0.0333,
           "rouseChance": 0.0042
         },
@@ -224,8 +228,8 @@
         ]
       },
       "moves": [
-        "1:dragonrage", 
         "1:doubleshock",
+        "1:dragonrage",
         "1:metalsound",
         "1:tackle",
         "5:bind",
@@ -246,15 +250,19 @@
         "60:heavyslam",
         "68:flashcannon",
         "73:thunderbolt",
+        "egg:fling",
+        "egg:freezedry",
+        "egg:solarbeam",
+        "tm:ancientpower",
         "tm:autotomize",
         "tm:bodyslam",
+        "tm:bulldoze",
         "tm:bulletpunch",
         "tm:charm",
         "tm:circlethrow",
+        "tm:dragontail",
         "tm:electroball",
         "tm:finalgambit",
-        "tm:fling",
-        "tm:freezedry",
         "tm:frustration",
         "tm:gigaimpact",
         "tm:hyperbeam",
@@ -263,8 +271,6 @@
         "tm:retaliate",
         "tm:return",
         "tm:skydrop",
-        "tm:solarbeam",
-        "tm:solarblade",
         "tm:steelbeam",
         "tm:steelroller",
         "tm:strength",

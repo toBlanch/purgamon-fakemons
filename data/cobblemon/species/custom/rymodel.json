@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 1508,
-  "name": "rymodel",
+  "name": "Rymodel",
   "primaryType": "steel",
   "maleRatio": -1,
-  "height": 2,
-  "weight": 2500,
+  "height": 1,
+  "weight": 1750,
   "pokedex": [
     "cobblemon.species.rymodel.desc"
   ],
@@ -14,7 +14,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "filter"
+    "filter",
+    "h:filter"
   ],
   "eggGroups": [
     "mineral",
@@ -22,29 +23,29 @@
   ],
   "baseStats": {
     "hp": 70,
-    "attack": 45,
-    "defence": 60,
-    "special_attack": 89,
-    "special_defence": 70,
+    "attack": 89,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 60,
     "speed": 82
   },
   "evYield": {
     "hp": 0,
-    "attack": 0,
+    "attack": 2,
     "defence": 0,
-    "special_attack": 2,
+    "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 182,
+  "baseExperienceYield": 154,
   "experienceGroup": "medium_slow",
-  "catchRate": 60,
-  "eggCycles": 15,
+  "catchRate": 45,
+  "eggCycles": 25,
   "baseFriendship": 0,
-  "baseScale": 1,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 2,
-    "height": 2,
+    "width": 1.5,
+    "height": 2.5,
     "fixed": false
   },
   "behaviour": {
@@ -59,7 +60,7 @@
     "resting": {
       "canSleep": true,
       "light": "0-4",
-      "willSleepOnBed": true,
+      "willSleepOnBed": false,
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
     },
@@ -72,7 +73,7 @@
     "entries": [
       {
         "item": "iron_ingot",
-        "quantityRange": "0-3"
+        "quantityRange": "0-2"
       },
       {
         "item": "bone",
@@ -81,6 +82,7 @@
     ]
   },
   "moves": [
+    "1:doubleshock",
     "1:metalsound",
     "1:tackle",
     "5:bind",
@@ -101,15 +103,19 @@
     "60:heavyslam",
     "68:flashcannon",
     "73:thunderbolt",
+    "egg:fling",
+    "egg:freezedry",
+    "egg:solarbeam",
+    "tm:ancientpower",
     "tm:autotomize",
     "tm:bodyslam",
+    "tm:bulldoze",
     "tm:bulletpunch",
     "tm:charm",
     "tm:circlethrow",
+    "tm:dragontail",
     "tm:electroball",
     "tm:finalgambit",
-    "tm:fling",
-    "tm:freezedry",
     "tm:frustration",
     "tm:gigaimpact",
     "tm:hyperbeam",
@@ -118,8 +124,6 @@
     "tm:retaliate",
     "tm:return",
     "tm:skydrop",
-    "tm:solarbeam",
-    "tm:solarblade",
     "tm:steelbeam",
     "tm:steelroller",
     "tm:strength",
@@ -140,7 +144,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 38
+          "minLevel": 39
         }
       ]
     }

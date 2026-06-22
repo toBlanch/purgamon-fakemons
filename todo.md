@@ -1,5 +1,6 @@
 # Averist 
-* Finish Advantageous Breeze
+* Implement Feather Barrage
+* Give Current and Feather Barrage to other flying types
 * Models
 
 # Selcanirave:
@@ -9,7 +10,6 @@
 * Models
 
 # Ryunit:
-* Back unit - Stop from activating if already activated
 * Riding stats
 * Flesh out stage 1 and 2
 * Spawn data

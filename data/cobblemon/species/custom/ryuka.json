@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 1507,
-  "name": "ryuka",
+  "name": "Ryuka",
   "primaryType": "steel",
   "maleRatio": -1,
-  "height": 2,
-  "weight": 2000,
+  "height": 0.5,
+  "weight": 500,
   "pokedex": [
     "cobblemon.species.ryuka.desc"
   ],
@@ -14,7 +14,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "filter"
+    "filter",
+    "h:filter"
   ],
   "eggGroups": [
     "mineral",
@@ -22,29 +23,29 @@
   ],
   "baseStats": {
     "hp": 55,
-    "attack": 45,
-    "defence": 60,
-    "special_attack": 60,
-    "special_defence": 45,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 45,
+    "special_defence": 60,
     "speed": 55
   },
   "evYield": {
     "hp": 0,
-    "attack": 0,
+    "attack": 1,
     "defence": 0,
-    "special_attack": 2,
+    "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 182,
+  "baseExperienceYield": 64,
   "experienceGroup": "medium_slow",
-  "catchRate": 60,
-  "eggCycles": 15,
+  "catchRate": 45,
+  "eggCycles": 25,
   "baseFriendship": 0,
-  "baseScale": 1,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 2,
-    "height": 2,
+    "width": 0.75,
+    "height": 1.75,
     "fixed": false
   },
   "behaviour": {
@@ -58,7 +59,7 @@
     },
     "resting": {
       "canSleep": true,
-      "light": "0-4",
+      "light": "0-5",
       "willSleepOnBed": true,
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -72,15 +73,17 @@
     "entries": [
       {
         "item": "iron_ingot",
-        "quantityRange": "0-3"
+        "quantityRange": "0-1"
       },
       {
         "item": "bone",
-        "quantityRange": "1-2"
+        "quantityRange": "1"
       }
     ]
   },
   "moves": [
+    "1:doubleshock",
+    "1:dragonrage",
     "1:metalsound",
     "1:tackle",
     "5:bind",
@@ -101,15 +104,19 @@
     "60:heavyslam",
     "68:flashcannon",
     "73:thunderbolt",
+    "egg:fling",
+    "egg:freezedry",
+    "egg:solarbeam",
+    "tm:ancientpower",
     "tm:autotomize",
     "tm:bodyslam",
+    "tm:bulldoze",
     "tm:bulletpunch",
     "tm:charm",
     "tm:circlethrow",
+    "tm:dragontail",
     "tm:electroball",
     "tm:finalgambit",
-    "tm:fling",
-    "tm:freezedry",
     "tm:frustration",
     "tm:gigaimpact",
     "tm:hyperbeam",
@@ -118,8 +125,6 @@
     "tm:retaliate",
     "tm:return",
     "tm:skydrop",
-    "tm:solarbeam",
-    "tm:solarblade",
     "tm:steelbeam",
     "tm:steelroller",
     "tm:strength",
@@ -134,11 +139,13 @@
       "variant": "level_up",
       "result": "rymodel",
       "consumeHeldItem": false,
-      "learnableMoves": [],
+      "learnableMoves": [
+        "dragonrage"
+      ],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 17
+          "minLevel": 18
         }
       ]
     }
