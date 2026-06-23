@@ -43,14 +43,12 @@
   "cobblemon.species.lithantula.desc": "As a patient ambush predator, it spins intricate, near-invisible silk traps across narrow pathways. It lies perfectly motionless in the shadows, waiting to strike the moment unsuspecting prey becomes ensnared.",
   "cobblemon.species.terrachne.name": "Terrachne",
   "cobblemon.species.terrachne.desc": "It channels light through the faceted crystals on its abdomen to emit a blinding glare that deeply disorients its opponents. To protect itself, it locks its massive, crystallized front limbs together to form an impenetrable physical barrier.",
-  
 
   "cobblemon.move.current": "Current",
   "cobblemon.move.current.desc": "The user creates a fresh breeze, allowing it to quickly swap places with an ally. A harsh breeze will damage the opponent and a gentle breeze will restore the ally, healing it for 50% of the damage dealt.",
 
   "cobblemon.move.backunit": "Back Unit",
   "cobblemon.move.backunit.desc": "Unit on the back.",
-
 
   "cobblemon.ui.pokedex.region.purgamon": "Purgamon"
 }
