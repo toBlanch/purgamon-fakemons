@@ -6,9 +6,9 @@
     pp: 20,
     priority: 0,
     flags: { snatch: 1, metronome: 1 },
-    sideCondition: "current",
-    onTry() {
-      return !source.isGrounded();
+    onTry() {      
+      const weakWeathers = ["sunnyday", "desolateland", "raindance", "primordialsea", "sandstorm", "hail", "snow"];
+      return !source.isGrounded() && !weakWeathers.includes(pokemon.effectiveWeather());
     },
     condition: {
       duration: 5,
