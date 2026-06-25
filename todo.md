@@ -9,8 +9,6 @@
 * Models
 
 # Ryunit:
-* Riding stats
-* Spawn data
 * Pokedex entries
 * Models
 
@@ -21,19 +19,18 @@
 * Models
 
 # Blazeufel
-* Implement Chemical
+* Change levels moves are learnt
 * Flesh out non battle stats
 * Spawn data
 * Pokedex entries
 * Models
 
 # Terrachne
-* Currently Crustle clone
-* Prismatic Bulwark
-* Rename Filter to Prismatic Shell?
 * Spawn data
 * Models
 
 # Moves
 * Feather Barrage
 * Updraft
+* Rebalance Skyward Strike
+* Rebalance Boulder Bash

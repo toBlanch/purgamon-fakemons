@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1517,
+  "name": "Arachnolith",
+  "primaryType": "bug",
+  "secondaryType": "rock",
+  "maleRatio": 0.125,
+  "height": 70,
+  "weight": 900,
+  "pokedex": [
+    "cobblemon.species.arachnolith.desc"
+  ],
+  "labels": [
+    "genpurg"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swarm",
+    "clearbody",
+    "h:solidrock"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 105,
+    "defence": 80,
+    "special_attack": 35,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 149,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "height": 1.5,
+    "fixed": false,
+    "width": 2.5
+  },
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInWater": false
+      },
+      "walk": {
+        "walkSpeed": 0.55
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "drowsyChance": 0.0333,
+      "light": "0-4",
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 6,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:emerald",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "1:harden",
+    "4:strugglebug",
+    "7:rockthrow",
+    "10:infestation",
+    "14:smackdown",
+    "18:bugbite",
+    "22:rockpolish",
+    "26:stealthrock",
+    "30:spikes",
+    "34:xscissor",
+    "38:stickyweb",
+    "42:rockslide",
+    "46:leechlife",
+    "52:irondefense",
+    "60:powergem",
+    "64:bugbuzz",
+    "68:stoneedge",
+    "egg:nightslash",
+    "egg:rototiller",
+    "egg:wideguard",
+    "tm:earthpower",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:protect",
+    "tm:recover",
+    "tm:reflect",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:uturn"
+  ],
+  "evolutions": [
+    {
+      "id": "arachnolith_terrachne",
+      "variant": "level_up",
+      "result": "terrachne",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "crystallinesnare"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ]
+}

@@ -165,7 +165,7 @@
     {
       "id": "averi_averon",
       "variant": "level_up",
-      "result": "averist",
+      "result": "averon",
       "consumeHeldItem": false,
       "learnableMoves": [
         "confusion",

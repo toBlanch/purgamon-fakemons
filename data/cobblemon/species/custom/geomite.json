@@ -1,0 +1,149 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1516,
+  "name": "Geomite",
+  "primaryType": "bug",
+  "secondaryType": "rock",
+  "maleRatio": 0.125,
+  "height": 35,
+  "weight": 450,
+  "pokedex": [
+    "cobblemon.species.geomite.desc"
+  ],
+  "labels": [
+    "genpurg"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swarm",
+    "clearbody",
+    "h:solidrock"
+  ],
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 1,
+  "hitbox": {
+    "height": 0.5,
+    "fixed": false,
+    "width": 1.5
+  },
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": false,
+      "willDefendSelf": false,
+      "willFlee": true
+    },
+    "moving": {
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInWater": false
+      },
+      "walk": {
+        "walkSpeed": 0.85
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "drowsyChance": 0.0333,
+      "light": "0-4",
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:emerald",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "1:harden",
+    "4:strugglebug",
+    "7:rockthrow",
+    "10:infestation",
+    "14:smackdown",
+    "18:bugbite",
+    "22:rockpolish",
+    "26:stealthrock",
+    "30:spikes",
+    "34:xscissor",
+    "38:stickyweb",
+    "42:rockslide",
+    "46:leechlife",
+    "52:irondefense",
+    "60:powergem",
+    "64:bugbuzz",
+    "68:stoneedge",
+    "egg:nightslash",
+    "egg:rototiller",
+    "egg:wideguard",
+    "tm:earthpower",
+    "tm:flashcannon",
+    "tm:gigadrain",
+    "tm:lightscreen",
+    "tm:lunge",
+    "tm:protect",
+    "tm:recover",
+    "tm:reflect",
+    "tm:rest",
+    "tm:sandstorm",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:uturn"
+  ],
+  "evolutions": [
+    {
+      "id": "geomite_arachnolith",
+      "variant": "level_up",
+      "result": "arachnolith",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
+}

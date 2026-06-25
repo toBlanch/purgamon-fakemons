@@ -4,7 +4,7 @@
   "name": "crepitule",
   "primaryType": "fire",
   "secondaryType": "bug",
-  "maleRatio": 0.5,
+  "maleRatio": 0.875,
   "height": 3,
   "weight": 18,
   "pokedex": [
@@ -19,28 +19,28 @@
     "h:flamebody"
   ],
   "eggGroups": [
-    "flying"
+    "bug"
   ],
   "baseStats": {
-    "hp": 40,
-    "attack": 40,
-    "defence": 45,
-    "special_attack": 30,
-    "special_defence": 40,
-    "speed": 65
+    "hp": 45,
+    "attack": 25,
+    "defence": 80,
+    "special_attack": 39,
+    "special_defence": 80,
+    "speed": 40
   },
   "evYield": {
     "hp": 0,
     "attack": 0,
     "defence": 0,
     "special_attack": 0,
-    "special_defence": 0,
-    "speed": 1
+    "special_defence": 1,
+    "speed": 0
   },
-  "baseExperienceYield": 55,
+  "baseExperienceYield": 62,
   "experienceGroup": "medium_slow",
-  "catchRate": 255,
-  "eggCycles": 15,
+  "catchRate": 45,
+  "eggCycles": 20,
   "baseFriendship": 50,
   "shoulderMountable": true,
   "baseScale": 0.8,
@@ -82,15 +82,15 @@
       "maxSize": "9",
       "toleratedLeaders": [
         {
-          "pokemon": "averi",
+          "pokemon": "crepitule",
           "tier": 1
         },
         {
-          "pokemon": "averon",
+          "pokemon": "flammentle",
           "tier": 2
         },
         {
-          "pokemon": "averist",
+          "pokemon": "blazeufel",
           "tier": 3
         }
       ]
@@ -100,82 +100,73 @@
     "amount": 3,
     "entries": [
       {
-        "item": "minecraft:feather",
+        "item": "minecraft:blaze_powder",
         "quantityRange": "0-1"
       },
       {
-        "item": "minecraft:chicken"
+        "item": "minecraft:gunpowder"
       },
       {
-        "item": "cobblemon:salac_berry",
-        "percentage": 2.5
+        "item": "cobblemon:occa_berry",
+        "percentage": 0.5
       }
     ]
   },
   "moves": [
     "1:tackle",
-    "5:peck",
-    "9:gust",
-    "13:quickattack",
-    "17:featherdance",
-    "13:swift",
-    "27:agility",
-    "33:wingattack",
-    "37:roost",
-    "41:tailwind",
-    "44:fly",
-    "48:defog",
-    "55:hurricane",
-    "egg:feintattack",
-    "egg:foresight",
-    "egg:pursuit",
-    "tm:aerialace",
-    "tm:agility",
-    "tm:aircutter",
-    "tm:airslash",
-    "tm:bravebird",
-    "tm:defog",
-    "tm:dualwingbeat",
-    "tm:endure",
-    "tm:facade",
-    "tm:featherdance",
-    "tm:fly",
-    "tm:hurricane",
-    "tm:pluck",
+    "5:ember",
+    "8:leechlife",
+    "11:smokescreen",
+    "15:strugglebug",
+    "16:flamecharge",
+    "20:acidarmor",
+    "25:bugbite",
+    "28:flamethrower",
+    "32:firespin",
+    "43:firelash",
+    "48:fireblast",
+    "tm:acid",
+    "tm:acidspray",
+    "tm:bugbuzz",
+    "tm:bulletseed",
+    "tm:clearsmog",
+    "tm:corrosivegas",
+    "tm:explosion",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flareblitz",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:overheat",
+    "tm:poisongas",
+    "tm:poisonpowder",
+    "tm:poisonsting",
     "tm:protect",
     "tm:rest",
-    "tm:roost",
-    "tm:sleeptalk",
-    "tm:steelwing",
-    "tm:substitute",
-    "tm:swift",
-    "tm:tailwind",
-    "tm:terablast",
-    "tm:uturn",
-    "tm:workup",
-    "tutor:aerialace",
-    "tutor:aircutter",
-    "tutor:defog",
-    "tutor:dualwingbeat",
-    "tutor:rest",
-    "tutor:roost",
-    "tutor:sleeptalk",
-    "tutor:tailwind"
+    "tm:sandattack",
+    "tm:scorchingsands",
+    "tm:selfdestruct",
+    "tm:skittersmack",
+    "tm:smog",
+    "tm:smokescreen",
+    "tm:strugglebug",
+    "tm:trailblaze",
+    "tm:uturn"
   ],
   "evolutions": [
     {
-      "id": "averi_averon",
+      "id": "crepitule_flammentle",
       "variant": "level_up",
-      "result": "averist",
+      "result": "flammentle",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "confusion",
-        "psybeam"
+        "incinerate"
       ],
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 26
+          "minLevel": 17
         }
       ]
     }
