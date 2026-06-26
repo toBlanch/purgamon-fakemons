@@ -42,13 +42,18 @@
   "cobblemon.species.arachnolith.name": "Arachnolith",
   "cobblemon.species.arachnolith.desc": "As a patient ambush predator, it spins intricate, near-invisible silk traps across narrow pathways. It lies perfectly motionless in the shadows, waiting to strike the moment unsuspecting prey becomes ensnared.",
   "cobblemon.species.terrachne.name": "Terrachne",
-  "cobblemon.species.terrachne.desc": "It channels light through the faceted crystals on its abdomen to emit a blinding glare that deeply disorients its opponents. To protect itself, it locks its massive, crystallized front limbs together to form an impenetrable physical barrier.",
+  "cobblemon.species.terrachne.desc": "Layers of natural stone cover Terrachne's body, forming a armor-like shell that grows throughout its life. Once prey is trapped in its webs, it uses its enormous crystal-tipped armored forelimbs to crush and impale its victims with overwhelming force.",
 
   "cobblemon.move.current": "Current",
-  "cobblemon.move.current.desc": "The user creates a fresh breeze, allowing it to quickly swap places with an ally. A harsh breeze will damage the opponent and a gentle breeze will restore the ally, healing it for 50% of the damage dealt.",
+  "cobblemon.move.current.desc": "The user creates a powerful current that increases the power of moves used by the user and its allies. Can only be used if there are no weather conditions.",
+  "cobblemon.move.crystallinesnare": "Crystalline Snare",
+  "cobblemon.move.crystallinesnare.desc": "User attacks the opposing Pokémon and applies webbed, lowering the target's Defense and Sp. Def every turn.",
 
-  "cobblemon.move.backunit": "Back Unit",
-  "cobblemon.move.backunit.desc": "Unit on the back.",
+  "cobblemon.ability.backunit": "Back Unit",
+  "cobblemon.ability.backunit.desc": "The user levitates. Once it loses the electric type, it enrages. This prevents it from levitating and switches its physical and special stats.",
+  "cobblemon.battle.activate.backunit": "BRO HAS BEEN SO RAGEBAITED",
+  "cobblemon.ability.chemical": "Chemical",
+  "cobblemon.ability.chemical.desc": "The power of the Pokémon's poisonous fire(?) may poison any target the Pokémon hits with a fire type move.",
 
   "cobblemon.ui.pokedex.region.purgamon": "Purgamon"
 }

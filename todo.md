@@ -1,5 +1,4 @@
 # Averist 
-* Give Current to other flying types
 * Models
 
 # Selcanirave:
@@ -26,10 +25,11 @@
 * Models
 
 # Terrachne
-* Spawn data
+* Remove Octolock dependency in 
 * Models
 
 # Moves
+* Distribute Current
 * Feather Barrage
 * Updraft
 * Rebalance Skyward Strike
