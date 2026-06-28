@@ -44,8 +44,8 @@
   "cobblemon.species.terrachne.name": "Terrachne",
   "cobblemon.species.terrachne.desc": "Layers of natural stone cover Terrachne's body, forming a armor-like shell that grows throughout its life. Once prey is trapped in its webs, it uses its enormous crystal-tipped armored forelimbs to crush and impale its victims with overwhelming force.",
 
-  "cobblemon.move.current": "Current",
-  "cobblemon.move.current.desc": "The user creates a powerful current that increases the power of moves used by the user and its allies. Can only be used if there are no weather conditions.",
+  "cobblemon.move.featherbarrage": "Feather Barrage",
+  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 3 feathers at the opposing Pokémon",
   "cobblemon.move.crystallinesnare": "Crystalline Snare",
   "cobblemon.move.crystallinesnare.desc": "User attacks the opposing Pokémon and applies webbed, lowering the target's Defense and Sp. Def every turn.",
 

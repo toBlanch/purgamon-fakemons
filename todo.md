@@ -1,4 +1,5 @@
-# Averist 
+# Averist
+* Distribute Feather Barrage
 * Models
 
 # Selcanirave:
@@ -8,7 +9,7 @@
 * Models
 
 # Ryunit:
-* Pokedex entries
+* Pre evo Pokedex entries
 * Models
 
 # Raucatoo:
@@ -25,12 +26,9 @@
 * Models
 
 # Terrachne
-* Remove Octolock dependency in 
 * Models
 
 # Moves
-* Distribute Current
-* Feather Barrage
 * Updraft
 * Rebalance Skyward Strike
 * Rebalance Boulder Bash
