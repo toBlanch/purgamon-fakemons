@@ -21,7 +21,7 @@
   "cobblemon.species.rymodel.name": "Rymodel",
   "cobblemon.species.rymodel.desc": "Kaiju. Origins unknown.",
   "cobblemon.species.ryunit.name": "Ryunit",
-  "cobblemon.species.ryunit.desc": "Kaiju. Origins unknown.",
+  "cobblemon.species.ryunit.desc": "The finalized version of this anti pokemon defense unit, due to a fatal flaw in its programming once its energy depletes the fossil reawakens, becoming a rampaging beast that can cause more destruction than an enraged Gyarados.",
 
   "cobblemon.species.budjolt.name": "Budjolt",
   "cobblemon.species.budjolt.desc": "To protect itself from predators, it flies in massive flocks that generate tremendous electrical charges. It's sociable but mischievous.",
@@ -31,11 +31,11 @@
   "cobblemon.species.raucatoo.desc": "Its voice booms like thunder, and with the flashing of its electrified crest this Pokemon's presence is impossible to ignore. While it is rebellious by nature, a patient Trainer may find its attention-seeking antics endearing.",
 
   "cobblemon.species.crepitule.name": "Crepitule",
-  "cobblemon.species.crepitule.desc": "Unknown funny bug.",
+  "cobblemon.species.crepitule.desc": "Crepitule's flames are created by two chemicals stored in its abdomen, despite the quantity produced it rarely ignites.",
   "cobblemon.species.flammentle.name": "Flammentle",
-  "cobblemon.species.flammentle.desc": "I found this bug and squished it with my big wheel.",
+  "cobblemon.species.flammentle.desc": "Frustrated by the weakness of their firepower, Flammentles often take out their anger on weaker Pokémon and stand up to their trainers.",
   "cobblemon.species.blazeufel.name": "Blazeufel",
-  "cobblemon.species.blazeufel.desc": "RUN RUN SCARY BUG RUN RUN",
+  "cobblemon.species.blazeufel.desc": "Upon evolving, Blazeufel's chemical makeup becomes poisonous and highly flammable. They often coat themselves and their territory with it to enhance their fire attacks.",
 
   "cobblemon.species.geomite.name": "Geomite",
   "cobblemon.species.geomite.desc": "A small skittish Pokemon, that grows faceted, gem-like clusters on its back. When frightened, it tucks its legs beneath its rocky shell to disguise itself as an ordinary, immovable pebble.",
@@ -50,10 +50,10 @@
   "cobblemon.move.crystallinesnare.desc": "User attacks the opposing Pokémon and applies webbed, lowering the target's Defense and Sp. Def every turn.",
 
   "cobblemon.ability.backunit": "Back Unit",
-  "cobblemon.ability.backunit.desc": "The user levitates. Once it loses the electric type, it enrages. This prevents it from levitating and switches its physical and special stats.",
-  "cobblemon.battle.activate.backunit": "BRO HAS BEEN SO RAGEBAITED",
+  "cobblemon.ability.backunit.desc": "If the Pokemon has electric type it will have levitate. Once it loses its electric type, its physical and special stats will be swapped and it loses levitation.",
+  "cobblemon.battle.activate.backunit": "",
   "cobblemon.ability.chemical": "Chemical",
-  "cobblemon.ability.chemical.desc": "The power of the Pokémon's poisonous fire(?) may poison any target the Pokémon hits with a fire type move.",
+  "cobblemon.ability.chemical.desc": "The pokémon's fire attacks are powered by a poisonous chemical, they may leave the target poisoned.",
 
   "cobblemon.ui.pokedex.region.purgamon": "Purgamon"
 }

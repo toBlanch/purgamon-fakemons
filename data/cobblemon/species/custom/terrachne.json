@@ -46,9 +46,9 @@
   "baseFriendship": 50,
   "baseScale": 1,
   "hitbox": {
-    "height": 2.5,
+    "height": 2,
     "fixed": false,
-    "width": 4.5
+    "width": 3.5
   },
   "riding": {
     "behaviours": {

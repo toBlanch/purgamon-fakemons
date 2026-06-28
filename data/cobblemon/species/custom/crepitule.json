@@ -66,18 +66,11 @@
       "rouseChance": 0.0042
     },
     "combat": {
-      "willDefendOwner": true
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": true
     },
-    "itemInteract": {
-      "desiredItems": [
-        {
-          "item": "#minecraft:chicken_food",
-          "pickupPriority": 1,
-          "fullnessValue": 1,
-          "onUseEffect": "q.entity.heal(1)"
-        }
-      ]
-    },
+    "fireImmune": true,
     "herd": {
       "maxSize": "9",
       "toleratedLeaders": [
@@ -121,9 +114,8 @@
     "16:flamecharge",
     "20:acidarmor",
     "25:bugbite",
-    "28:flamethrower",
     "32:firespin",
-    "43:firelash",
+    "40:overheat",
     "48:fireblast",
     "tm:acid",
     "tm:acidspray",
@@ -133,26 +125,23 @@
     "tm:corrosivegas",
     "tm:explosion",
     "tm:firepledge",
-    "tm:firespin",
     "tm:flamecharge",
     "tm:flareblitz",
     "tm:infestation",
     "tm:leechlife",
-    "tm:overheat",
     "tm:poisongas",
     "tm:poisonpowder",
     "tm:poisonsting",
     "tm:protect",
-    "tm:rest",
-    "tm:sandattack",
     "tm:scorchingsands",
-    "tm:selfdestruct",
     "tm:skittersmack",
     "tm:smog",
-    "tm:smokescreen",
-    "tm:strugglebug",
+    "tm:uturn",
     "tm:trailblaze",
-    "tm:uturn"
+    "egg:sleeppowder",
+    "egg:defog",
+    "egg:partingshot",
+    "egg:rest"
   ],
   "evolutions": [
     {
