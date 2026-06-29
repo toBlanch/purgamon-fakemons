@@ -1,5 +1,4 @@
 # Averist
-* Distribute Feather Barrage
 * Models
 
 # Selcanirave:
@@ -27,8 +26,3 @@
 
 # Terrachne
 * Models
-
-# Moves
-* Updraft
-* Rebalance Skyward Strike
-* Rebalance Boulder Bash
