@@ -1,28 +1,28 @@
-# Averist
+# Averi Averon Averist
 * Models
 
-# Selcanirave:
+# Baitellapup Lupsostrial Selcanirave:
 * Currently Arcanine clone
 * Spawn data
 * Pokedex entries 
 * Models
 
-# Ryunit:
-* Pre evo Pokedex entries
+# Ryuka Rymodel Ryunit:
 * Models
 
-# Raucatoo:
+# Budjolt Shockatiel Raucatoo:
 * Moves
 * Flesh out non battle stats
 * Spawn data
 * Models
 
-# Blazeufel
-* Change levels moves are learnt
-* Flesh out non battle stats
-* Spawn data
-* Pokedex entries
+# Crepitule Flammentle Blazeufel
 * Models
 
-# Terrachne
+# Geomite Arachnolith Terrachne
+* Riding stats
 * Models
+
+# Other
+## Moves
+* Decide with the council

@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "crepitule-1",
+            "pokemon": "crepitule",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "5-34",
+            "weight": 6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_nether_crimson",
+                    "#cobblemon:is_magical",
+                    "netherexp:sanctum"
+                ]
+            }
+        }
+    ]
+}
