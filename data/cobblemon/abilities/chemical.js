@@ -8,5 +8,5 @@
     },
     flags: {},
     name: "Chemical",
-    rating: 4.5
+    rating: 4
 })

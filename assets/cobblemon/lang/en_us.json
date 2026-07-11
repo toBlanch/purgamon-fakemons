@@ -1,12 +1,12 @@
 {
   "cobblemon.species.averi.name": "Averi",
-  "cobblemon.species.averi.desc1": "This Pokemon is frequently seen assisting Meowscarada with magic tricks. It is happy to help, as long as it's not eaten.",
-  "cobblemon.species.averi.desc2": "Trainers appear to be happier when nearby this pokemon. Some theorise it has an aura of happiness, others think it's very cute.",
+  "cobblemon.species.averi.desc1": "This Pokémon is frequently seen assisting Meowscarada with magic tricks. It is happy to help, as long as it's not eaten.",
+  "cobblemon.species.averi.desc2": "Trainers appear to be happier when nearby this Pokémon. Some theorise it has an aura of happiness, others think it's very cute.",
   "cobblemon.species.averon.name": "Averon",
-  "cobblemon.species.averon.desc1": "Having grown in size from Averi, this Pokemon is now able to defend other Pokemon, assist in transportation and provide better hugs.",
-  "cobblemon.species.averon.desc2": "The ball above its head grows if nearby trainers or Pokemon are happy. This Pokemon was already kind, but now always aims to improve the lives of those around it",
+  "cobblemon.species.averon.desc1": "Having grown in size from Averi, this Pokémon is now able to defend other Pokémon, assist in transportation and provide better hugs.",
+  "cobblemon.species.averon.desc2": "The ball above its head grows if nearby trainers or Pokémon are happy. This Pokémon was already kind, but now always aims to improve the lives of those around it",
   "cobblemon.species.averist.name": "Averist",
-  "cobblemon.species.averist.desc1": "This Pokemon absorbed energy from its kind acts, providing it new power. It continues to help people, despite not gaining more power.",
+  "cobblemon.species.averist.desc1": "This Pokémon absorbed energy from its kind acts, providing it new power. It continues to help people, despite not gaining more power.",
   "cobblemon.species.averist.desc2": "This Pokémon can use its psychic abilities to share ideas with humans. It's commonly seen near Absol, guiding those in danger",
 
   "cobblemon.species.baitellapup.name": "Baitellapup",
@@ -17,18 +17,18 @@
   "cobblemon.species.selcanirave.desc": "Alpha dancing guy.",
 
   "cobblemon.species.ryuka.name": "Ryuka",
-  "cobblemon.species.ryuka.desc": "This prototype defence unit was designed by chance. Using DNA of a previously unknown fossil Pokemon jump started its activation in unexpected ways.",
+  "cobblemon.species.ryuka.desc": "This prototype defence unit was designed by chance. Using DNA of a previously unknown fossil Pokémon jump started its activation in unexpected ways.",
   "cobblemon.species.rymodel.name": "Rymodel",
   "cobblemon.species.rymodel.desc": "This remodel become intent in picking fights that should not be won from by its programming alone. One unit had picked a fight against a Sandslash, roaring monstrously as the Sandslash fled.",
   "cobblemon.species.ryunit.name": "Ryunit",
-  "cobblemon.species.ryunit.desc": "The finalized version of this anti pokemon defense unit, due to a fatal flaw in its programming once its energy depletes the fossil reawakens, becoming a rampaging beast that can cause more destruction than an enraged Gyarados.",
+  "cobblemon.species.ryunit.desc": "The finalized version of this anti Pokémon defense unit, due to a fatal flaw in its programming once its energy depletes the fossil reawakens, becoming a rampaging beast that can cause more destruction than an enraged Gyarados.",
 
   "cobblemon.species.budjolt.name": "Budjolt",
   "cobblemon.species.budjolt.desc": "To protect itself from predators, it flies in massive flocks that generate tremendous electrical charges. It's sociable but mischievous.",
   "cobblemon.species.shockatiel.name": "Shockatiel",
-  "cobblemon.species.shockatiel.desc": "The bright crest on its head gathers and stores ambient electricity that it discharges at will. It delights in loud noises and will often loudly taunt larger Pokemon.",
+  "cobblemon.species.shockatiel.desc": "The bright crest on its head gathers and stores ambient electricity that it discharges at will. It delights in loud noises and will often loudly taunt larger Pokémon.",
   "cobblemon.species.raucatoo.name": "Raucatoo",
-  "cobblemon.species.raucatoo.desc": "Its voice booms like thunder, and with the flashing of its electrified crest this Pokemon's presence is impossible to ignore. While it is rebellious by nature, a patient Trainer may find its attention-seeking antics endearing.",
+  "cobblemon.species.raucatoo.desc": "Its voice booms like thunder, and with the flashing of its electrified crest this Pokémon's presence is impossible to ignore. While it is rebellious by nature, a patient Trainer may find its attention-seeking antics endearing.",
 
   "cobblemon.species.crepitule.name": "Crepitule",
   "cobblemon.species.crepitule.desc": "Crepitule's flames are created by two chemicals stored in its abdomen, despite the quantity produced it rarely ignites.",
@@ -38,22 +38,23 @@
   "cobblemon.species.blazeufel.desc": "Upon evolving, Blazeufel's chemical makeup becomes poisonous and highly flammable. They often coat themselves and their territory with it to enhance their fire attacks.",
 
   "cobblemon.species.geomite.name": "Geomite",
-  "cobblemon.species.geomite.desc": "A small skittish Pokemon, that grows faceted, gem-like clusters on its back. When frightened, it tucks its legs beneath its rocky shell to disguise itself as an ordinary, immovable pebble.",
+  "cobblemon.species.geomite.desc": "A small skittish Pokémon, that grows faceted, gem-like clusters on its back. When frightened, it tucks its legs beneath its rocky shell to disguise itself as an ordinary, immovable pebble.",
   "cobblemon.species.arachnolith.name": "Arachnolith",
   "cobblemon.species.arachnolith.desc": "As a patient ambush predator, it spins intricate, near-invisible silk traps across narrow pathways. It lies perfectly motionless in the shadows, waiting to strike the moment unsuspecting prey becomes ensnared.",
   "cobblemon.species.terrachne.name": "Terrachne",
   "cobblemon.species.terrachne.desc": "Layers of natural stone cover Terrachne's body, forming a armor-like shell that grows throughout its life. Once prey is trapped in its webs, it uses its enormous crystal-tipped armored forelimbs to crush and impale its victims with overwhelming force.",
 
   "cobblemon.move.featherbarrage": "Feather Barrage",
-  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 3 feathers at the opposing Pokémon",
+  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 4 feathers at the opposing Pokémon",
   "cobblemon.move.crystallinesnare": "Crystalline Snare",
   "cobblemon.move.crystallinesnare.desc": "User attacks the opposing Pokémon and applies webbed, lowering the target's Defense and Sp. Def every turn.",
 
   "cobblemon.ability.backunit": "Back Unit",
-  "cobblemon.ability.backunit.desc": "If the Pokemon has electric type it will have levitate. Once it loses its electric type, its physical and special stats will be swapped and it loses levitation.",
-  "cobblemon.battle.activate.backunit": "",
+  "cobblemon.ability.backunit.desc": "If the Pokémon has electric type it will have levitate. Once it loses its electric type, its physical and special stats will be swapped and it loses levitation.",
   "cobblemon.ability.chemical": "Chemical",
-  "cobblemon.ability.chemical.desc": "The pokémon's fire attacks are powered by a poisonous chemical, they may leave the target poisoned.",
+  "cobblemon.ability.chemical.desc": "The Pokémon's fire attacks are powered by a poisonous chemical, they may leave the target poisoned.",
+  "cobblemon.ability.secondwind": "Second Wind",
+  "cobblemon.ability.secondwind.desc": "This Pokémon sets Tailwind for a short duration when withdrawn from battle.",
 
   "cobblemon.ui.pokedex.region.purgamon": "Purgamon"
 }

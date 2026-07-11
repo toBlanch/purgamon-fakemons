@@ -21,5 +21,5 @@
   },
   flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1 },
   name: "Back Unit",
-  rating: 3.5
+  rating: 4
 })
