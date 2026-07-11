@@ -1,13 +1,14 @@
 ({
     accuracy: 100,
-    basePower: 80,
-    category: "Special",
+    basePower: 0,
+    category: "Status",
     name: "Crystalline Snare",
-    pp: 10,
+    pp: 5,
     priority: 0,
     flags: { protect: 1, mirror: 1, metronome: 1 },
     target: "normal",
     type: "Rock",
+    volatileStatus: "partiallytrapped",
     secondary: {
       chance: 100,
       boosts: {

@@ -1,0 +1,12 @@
+({
+    accuracy: 100,
+    basePower: 80,
+    category: "Physical",
+    name: "Boulder Bash",
+    pp: 10,
+    priority: 0,
+    flags: { protect: 1, mirror: 1, metronome: 1 },
+    target: "any",
+    type: "Rock",
+    contestType: "Tough"
+})
