@@ -44,10 +44,12 @@
   "cobblemon.species.terrachne.name": "Terrachne",
   "cobblemon.species.terrachne.desc": "Layers of natural stone cover Terrachne's body, forming an armor-like shell that grows throughout its life. Once prey is trapped in its webs, it uses its enormous crystal-tipped armored forelimbs to crush and impale its victims with overwhelming force.",
 
+  "cobblemon.move.absolutesalvo": "Absolute Salvo",
+  "cobblemon.move.absolutesalvo.desc": "The user fires all of its electrically charged Energy in a full-power barrage. After attacking, the user loses its Electric type.",
   "cobblemon.move.boulderbash": "Boulder Bash",
   "cobblemon.move.boulderbash.desc": "The user tackles the target with its rocky body.",
   "cobblemon.move.featherbarrage": "Feather Barrage",
-  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 3 feathers at the opposing Pokémon",
+  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 2 feathers at the opposing Pokémon",
   "cobblemon.move.crystallinesnare": "Crystalline Snare",
   "cobblemon.move.crystallinesnare.desc": "User attacks the opposing Pokémon with webs and lowers the target's Defense and Sp. Def every turn.",
   "cobblemon.battle.activate.crystallinesnare": "%1$s has been trapped in crystal embedded webs.",

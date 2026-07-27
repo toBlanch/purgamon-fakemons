@@ -82,7 +82,7 @@
     ]
   },
   "moves": [
-    "1:doubleshock",
+    "1:absolutesalvo",
     "1:metalsound",
     "1:tackle",
     "5:bind",
@@ -139,7 +139,7 @@
       "result": "ryunit",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "doubleshock"
+        "absolutesalvo"
       ],
       "requirements": [
         {

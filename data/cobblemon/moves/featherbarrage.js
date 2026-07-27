@@ -1,6 +1,6 @@
 ({
     accuracy: 100,
-    basePower: 25,
+    basePower: 40,
     category: "Special",
     name: "Feather Barrage",
     pp: 10,
@@ -9,7 +9,7 @@
     target: "normal",
     type: "Flying",
     secondary: null,
-    multihit: 3,
+    multihit: 2,
     contestType: "Clever",
     zMove: { basePower: 140 },
     maxMove: { basePower: 130 }

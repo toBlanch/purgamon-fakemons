@@ -23,10 +23,15 @@
 # Geomite Arachnolith Terrachne
 * Models
 
+# Stril Nospera Atharfang Vactua
+* No progress yet
+
+# Rcrawgrunt Rcrawuit Rcawboss
+* No progress yet
+
 # Other
 ## Moves
 * Open second round of moves close to 1.8 release
-* Rework Feather Barrage
 
 ## Distribution
 * Updraft - Altaria, Averist, Pidgeot, Braviary + hisui Kilowattrel, Raucatoo, Pilipper?, Mandibuzz, Skarmory, Talonflame, Oricorio, Salamence, Noivern, Staraptor, Bombirdier, Cramorant, Drifblim, Honchkrow, Jumpluff, Noctowl, rotom-fan, Swanna, Toucannon, Tropius?, Decidueye + hisui, Flygon, Chatot, Sigilyph, Togekiss, Swoobat, Unfezant, Xatu, Yanmega
