@@ -13,7 +13,7 @@
     secondary: {
       chance: 100,
       boosts: {
-        spd: -1
+        spe: -1
       }
     },
     contestType: "Cute"

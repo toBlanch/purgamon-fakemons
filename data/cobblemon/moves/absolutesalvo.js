@@ -3,7 +3,7 @@
     basePower: 50,
     category: "Special",
     name: "Absolute Salvo",
-    pp: 10,
+    pp: 5,
     priority: 0,
     flags: { protect: 1, mirror: 1, metronome: 1 },
     onTryMove(pokemon, target, move) {

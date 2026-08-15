@@ -49,7 +49,7 @@
   "cobblemon.move.boulderbash": "Boulder Bash",
   "cobblemon.move.boulderbash.desc": "The user tackles the target with its rocky body.",
   "cobblemon.move.featherbarrage": "Feather Barrage",
-  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 2 feathers at the opposing Pokémon",
+  "cobblemon.move.featherbarrage.desc": "The user flaps a wing to release feathers, then launches 3 feathers at the opposing Pokémon",
   "cobblemon.move.crystallinesnare": "Crystalline Snare",
   "cobblemon.move.crystallinesnare.desc": "User attacks the opposing Pokémon with webs and lowers the target's Defense and Sp. Def every turn.",
   "cobblemon.battle.activate.crystallinesnare": "%1$s has been trapped in crystal embedded webs.",
