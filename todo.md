@@ -1,5 +1,4 @@
 # Averi Averon Averist
-* Riding stats
 * Models - BLOCKED
 
 # Baitellapup Lupsostrial Selcanirave:
@@ -30,7 +29,7 @@
 * Models - BLOCKED
 
 # Rcrawgrunt Rcrawuit Rcawboss
-* No progress yet
+* No progress yet - BLOCKED
 
 # Other
 ## Moves
