@@ -145,6 +145,7 @@
     "tm:burnup",
     "tm:clearsmog",
     "tm:corrosivegas",
+    "tm:exhaust",
     "tm:firepledge",
     "tm:flamecharge",
     "tm:flareblitz",

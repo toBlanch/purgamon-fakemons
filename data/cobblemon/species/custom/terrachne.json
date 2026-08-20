@@ -450,6 +450,7 @@
     "egg:nightslash",
     "egg:rototiller",
     "egg:wideguard",
+    "tm:boulderbash",
     "tm:earthpower",
     "tm:flashcannon",
     "tm:gigadrain",

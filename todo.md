@@ -36,17 +36,6 @@
 * Open second round of moves close to 1.8 release - BLOCKED
 
 ## Distribution
-### Updraft
-Altaria, Averist, Pidgeot, Braviary + hisui, Raucatoo, Pelipper, Mandibuzz, Skarmory, Talonflame, Oricorio, Salamence, Noivern, Staraptor, Bombirdier, Cramorant, Honchkrow, Noctowl, Swanna, Toucannon, Tropius, Decidueye + hisui, Flygon, Chatot, Sigilyph, Togekiss, Swoobat, Unfezant, Xatu, Yanmega
-
-### Skyward Strike
-Minior, Gliscor, Tropius, Yanmega, Metagross, Golurk, Archeops, Ninjask, Ryunit
-
 ### Boulder Bash
-Terrachne, Lycanroc (all forms if separate move pool), Dreadnaw, Avalugg-hisui, Minior, Probopass, Rampardos, Sudowodo, Stonjourner, Aggron, Armaldo, Aurorus, Barbacle, Carracosta, Gigalith, Omastar, Relicanth, Solrock, Tytrantrum
-
-### Slag Rush
-Camerupt, Coalossal, Emboar, Heatmor, Flareon, Chandelure, Rapidash
-
-### Exhaust
-Blazeufel, Infernape, Rapidash, Ninetales, Typhlosion, Arcanine, Houndoom, Golurk
+Dreadnaw, Probopass, Rampardos, Sudowodo, Stonjourner, Aggron, Armaldo, Aurorus, Barbacle, Carracosta, Gigalith, Omastar, Relicanth, Solrock, Tytrantrum
+    "tm:boulderbash",
