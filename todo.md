@@ -8,6 +8,7 @@
 * Models - BLOCKED
 
 # Ryuka Rymodel Ryunit:
+* Fix Absolute Salvo
 * Models - BLOCKED
 
 # Budjolt Shockatiel Raucatoo:
@@ -34,8 +35,3 @@
 # Other
 ## Moves
 * Open second round of moves close to 1.8 release - BLOCKED
-
-## Distribution
-### Boulder Bash
-Dreadnaw, Probopass, Rampardos, Sudowodo, Stonjourner, Aggron, Armaldo, Aurorus, Barbacle, Carracosta, Gigalith, Omastar, Relicanth, Solrock, Tytrantrum
-    "tm:boulderbash",

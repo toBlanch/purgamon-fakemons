@@ -1,6 +1,0 @@
-{
-  "target": "cobblemon:ribombee",
-  "moves": [
-    "1:tackle"
-  ]
-}
