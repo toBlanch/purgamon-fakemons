@@ -1,6 +1,6 @@
 ({
     accuracy: 100,
-    basePower: 50,
+    basePower: 40,
     category: "Special",
     name: "Absolute Salvo",
     pp: 5,
@@ -13,8 +13,13 @@
       this.attrLastMove("[still]");
       return null;
     },
+    onHit(target, source, move) {
+      move.category = "Physical";
+    },
     self: {
       onHit(pokemon) {
+        if (!pokemon.hasType("Electric"))
+          return;
         pokemon.setType(pokemon.getTypes(true).map((type) => type === "Electric" ? "???" : type));
         this.add("-start", pokemon, "typechange", pokemon.getTypes().join("/"), "[from] move: Absolute Salvo");
       }

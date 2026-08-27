@@ -45,7 +45,7 @@
   "cobblemon.species.terrachne.desc": "Layers of natural stone cover Terrachne's body, forming an armor-like shell that grows throughout its life. Once prey is trapped in its webs, it uses its enormous crystal-tipped armored forelimbs to crush and impale its victims with overwhelming force.",
 
   "cobblemon.move.absolutesalvo": "Absolute Salvo",
-  "cobblemon.move.absolutesalvo.desc": "The user fires all of its electrically charged Energy in a full-power barrage. After attacking, the user loses its Electric type.",
+  "cobblemon.move.absolutesalvo.desc": "The user fires all of its electrically charged Energy in a full-power barrage. After attacking, the user loses its Electric type and hits again, dealing physical damage.",
   "cobblemon.move.boulderbash": "Boulder Bash",
   "cobblemon.move.boulderbash.desc": "The user tackles the target with its rocky body.",
   "cobblemon.move.featherbarrage": "Feather Barrage",

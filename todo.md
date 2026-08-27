@@ -8,7 +8,6 @@
 * Models - BLOCKED
 
 # Ryuka Rymodel Ryunit:
-* Fix Absolute Salvo
 * Models - BLOCKED
 
 # Budjolt Shockatiel Raucatoo:
