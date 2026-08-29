@@ -8,6 +8,7 @@
 * Models - BLOCKED
 
 # Ryuka Rymodel Ryunit:
+* Add message for activation
 * Models - BLOCKED
 
 # Budjolt Shockatiel Raucatoo:
@@ -24,7 +25,6 @@
 
 # Stril Nospera Atharfang Vactua
 * Spawn data - BLOCKED
-* Abilities - Add messages and look into using the top 2 stats for possession instead of top 1
 * Data - BLOCKED
 * Models - BLOCKED
 

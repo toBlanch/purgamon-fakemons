@@ -21,7 +21,7 @@
         if (!pokemon.hasType("Electric"))
           return;
         pokemon.setType(pokemon.getTypes(true).map((type) => type === "Electric" ? "???" : type));
-        this.add("-start", pokemon, "typechange", pokemon.getTypes().join("/"), "[from] move: Absolute Salvo");
+        this.add("-start", pokemon, "typechange", pokemon.getTypes().join("/"), "[from] move: Absolute Salvo", "[silent]");
       }
     },
     target: "normal",

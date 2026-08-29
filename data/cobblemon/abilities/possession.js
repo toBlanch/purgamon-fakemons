@@ -1,102 +1,98 @@
 ({
-    onBeforeSwitchIn(pokemon) {
-      pokemon.atkBoost = false;
-      pokemon.defBoost = false;
-      pokemon.spaBoost = false;
-      pokemon.spdBoost = false;
-      pokemon.speBoost = false;
-      let possessionTarget = null;
-
-      for (let i = pokemon.side.pokemon.length - 1; i > pokemon.position; i--) {
-        const possibleTarget = pokemon.side.pokemon[i];
-        if (!possibleTarget.fainted) {
-          if (!pokemon.terastallized || possibleTarget.species.baseSpecies !== "Ogerpon") {
-            possessionTarget = possibleTarget;
-          }
-          break;
+    clearPossessionBoosts(pokemon) {
+        if (pokemon.possessionAtkActive) {
+            this.add("-end", pokemon, "Possession" + "atk");
         }
-      }
+        pokemon.possessionAtkActive = false;
 
-      if (possessionTarget == null){
-        return;
-      }
+        if (pokemon.possessionDefActive) {
+            this.add("-end", pokemon, "Possession" + "def");
+        }
+        pokemon.possessionDefActive = false;
 
-      let bestStat = possessionTarget.getBestStat();
-      
-      if(bestStat == "hp"){
-        pokemon.atkBoost = true;
-      }
-      if(bestStat == "atk"){
-        pokemon.atkBoost = true;
-      }
-      else if(bestStat == "def"){
-        pokemon.defBoost = true;
-      }
-      else if(bestStat == "spa"){
-        pokemon.spaBoost = true;
-      }
-      else if(bestStat == "spd"){
-        pokemon.spdBoost = true;
-      }
-      else if(bestStat == "spe"){
-        pokemon.speBoost = true;
-      }
+        if (pokemon.possessionSpAActive) {
+            this.add("-end", pokemon, "Possession" + "spa");
+        }
+        pokemon.possessionSpAActive = false;
+
+        if (pokemon.possessionSpDActive) {
+            this.add("-end", pokemon, "Possession" + "spd");
+        }
+        pokemon.possessionSpDActive = false;
+
+        if (pokemon.possessionSpeActive) {
+            this.add("-end", pokemon, "Possession" + "spe");
+        }
+        pokemon.possessionSpeActive = false;
+    },
+    possessionActive(pokemon) {
+        return pokemon.possessionAtkActive ||
+               pokemon.possessionDefActive ||
+               pokemon.possessionSpAActive ||
+               pokemon.possessionSpDActive ||
+               pokemon.possessionSpeActive;
+    },
+    endPossession(pokemon) {
+        if (this.effect.possessionActive(pokemon)) {
+            this.effect.clearPossessionBoosts.call(this, pokemon);
+        }
+    },
+    getPossessionTarget(pokemon) {
+        for (let i = pokemon.side.pokemon.length - 1; i > pokemon.position; i--) {
+            const possibleTarget = pokemon.side.pokemon[i];
+            if (!possibleTarget.fainted) {
+                return possibleTarget;
+            }
+        }
+    },
+    onModifyStat(isActive) {
+        if (isActive) {
+            return this.chainModify(1.5);
+        }
+    },
+    onPreStart(pokemon) {
+        this.effect.clearPossessionBoosts.call(this, pokemon);
+        const possessionTarget = this.effect.getPossessionTarget(pokemon);
+
+        if (!possessionTarget) {
+            return;
+        }
+
+        const stats = [
+            { name: "atk", value: possessionTarget.storedStats.atk, prop: "possessionAtkActive" },
+            { name: "def", value: possessionTarget.storedStats.def, prop: "possessionDefActive" },
+            { name: "spa", value: possessionTarget.storedStats.spa, prop: "possessionSpAActive" },
+            { name: "spd", value: possessionTarget.storedStats.spd, prop: "possessionSpDActive" },
+            { name: "spe", value: possessionTarget.storedStats.spe, prop: "possessionSpeActive" },
+        ];
+
+        stats.sort((a, b) => b.value - a.value);
+        for (let i = 0; i < 2; i++) {
+            const stat = stats[i];
+            this.add("-start", pokemon, "Possession" + stat.name);
+            pokemon[stat.prop] = true;
+        }
+    },
+    onAfterEachBoost(boost, target) {
+        this.effect.endPossession.call(this, target);
+    },
+    onAfterSetStatus(status, target, source, effect) {
+        this.effect.endPossession.call(this, target);
     },
     onModifyAtk(atk, pokemon) {
-        if (!pokemon.atkBoost || pokemon.status){
-            return;
-        }
-        for (stat in pokemon.boosts) {
-            if (pokemon.boosts[stat] != 0) {
-                return;
-            }
-        }
-        return this.chainModify(1.5);
+        return this.effect.onModifyStat.call(this, pokemon.possessionAtkActive);
     },
     onModifyDef(def, pokemon) {
-        if (!pokemon.defBoost || pokemon.status){
-            return;
-        }
-        for (stat in pokemon.boosts) {
-            if (pokemon.boosts[stat] != 0) {
-                return;
-            }
-        }
-        return this.chainModify(1.5);
+        return this.effect.onModifyStat.call(this, pokemon.possessionDefActive);
     },
     onModifySpA(spa, pokemon) {
-        if (!pokemon.spaBoost || pokemon.status){
-            return;
-        }
-        for (stat in pokemon.boosts) {
-            if (pokemon.boosts[stat] != 0) {
-                return;
-            }
-        }
-        return this.chainModify(1.5);
+        return this.effect.onModifyStat.call(this, pokemon.possessionSpAActive);
     },
     onModifySpD(spd, pokemon) {
-        if (!pokemon.spdBoost || pokemon.status){
-            return;
-        }
-        for (stat in pokemon.boosts) {
-            if (pokemon.boosts[stat] != 0) {
-                return;
-            }
-        }
-        return this.chainModify(1.5);
+        return this.effect.onModifyStat.call(this, pokemon.possessionSpDActive);
     },
     onModifySpe(spe, pokemon) {
-        if (!pokemon.speBoost || pokemon.status){
-            return;
-        }
-        for (stat in pokemon.boosts) {
-            if (pokemon.boosts[stat] != 0) {
-                return;
-            }
-        }
-        this.add("-singleturn", pokemon, "Possession spe boost");
-        return this.chainModify(1.5);
+        return this.effect.onModifyStat.call(this, pokemon.possessionSpeActive);
     },
     flags: {},
     name: "Possession",

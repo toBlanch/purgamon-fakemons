@@ -17,7 +17,7 @@
       delete pokemon.volatiles["magnetrise"];
     }
 
-    pokemon.formeChange("Ryunit-Berserk", this.effect, true, "[silent]");
+    pokemon.formeChange("Ryunit-Berserk", this.effect, true);
   },
   flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1 },
   name: "Back Unit",
