@@ -1,0 +1,9 @@
+{
+  "cobblemon.species.averi.desc2": "Trainers appear to be happier when nearby this Pokémon. Some theorise it has an aura of happiness, others think it's very cute.",
+  "cobblemon.species.ryuka.desc": "This prototype defence unit was designed by chance. Using DNA of a previously unknown fossil Pokémon jump started its activation in unexpected ways.",
+  "cobblemon.species.ryunit.desc": "The finalized version of this anti Pokémon defence unit. Once its energy depletes, a fatal flaw in its programming causes the fossil to reawaken. It then becomes a rampaging beast likely to cause more destruction than an enraged Gyarados.",
+  "cobblemon.move.crystallinesnare.desc": "The user attacks the opposing Pokémon with webs and lowers the target's Defence and Sp. Def every turn.",
+  "cobblemon.ability.materia.desc": "The user's Attack and Defence are boosted by 50%. This effect ends if the user's stats change or the user receives a status effect.",
+  "cobblemon.battle.start.possessiondef": "%1$s's Defence is boosted.",
+  "cobblemon.battle.end.possessiondef": "%1$s's Defence is no longer boosted."
+}
