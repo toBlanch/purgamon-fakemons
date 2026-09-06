@@ -1,4 +1,5 @@
 # Averi Averon Averist
+* Feather Barrage rework again
 * Models - BLOCKED
 
 # Baitellapup Lupsostrial Selcanirave:
@@ -31,6 +32,18 @@
 # Rcrawgrunt Rcrawuit Rcawboss
 * No progress yet - BLOCKED
 
+# Larvibon Skellicraw Bonemare
+* Modify language files
+* Skellicraw data
+* Bonemare data
+* Moves
+* Spawn data
+* Ability
+* Models
+
+Unsubmitted fakemon: 6
+
 # Other
 ## Moves
-* Open second round of moves close to 1.8 release - BLOCKED
+* Open second round of moves close to Server release - BLOCKED
+* Check pack compatibility with 1.8

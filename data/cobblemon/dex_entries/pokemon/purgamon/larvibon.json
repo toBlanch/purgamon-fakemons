@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:larvibon",
+  "speciesId": "cobblemon:larvibon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
