@@ -22,12 +22,12 @@
     "dragon"
   ],
   "baseStats": {
-    "hp": 55,
-    "attack": 60,
-    "defence": 45,
-    "special_attack": 45,
-    "special_defence": 60,
-    "speed": 55
+    "hp": 68,
+    "attack": 44,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 54,
+    "speed": 39
   },
   "evYield": {
     "hp": 0,
