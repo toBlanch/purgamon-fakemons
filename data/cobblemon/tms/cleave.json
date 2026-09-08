@@ -1,0 +1,23 @@
+{
+  "moveName": "cleave",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:unlockable"
+    }
+  ],
+  "type": "rock",
+  "recipe": [
+    {
+      "item": "cobblemon:rock_gem",
+      "count": 7
+    },
+    {
+      "item": "cobblemon:red_mint_leaf",
+      "count": 2
+    },
+    {
+      "item": "cobblemon:blue_mint_leaf",
+      "count": 2
+    }
+  ]
+}

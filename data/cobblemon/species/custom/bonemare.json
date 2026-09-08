@@ -1,14 +1,14 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 1525,
-  "name": "Larvibon",
+  "name": "Bonemare",
   "primaryType": "Dark",
   "secondaryType": "Ground",
   "maleRatio": 0.5,
   "height": 1,
   "weight": 10,
   "pokedex": [
-    "cobblemon.species.larvibon.desc"
+    "cobblemon.species.bonemare.desc"
   ],
   "labels": [
     "genpurg"

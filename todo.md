@@ -9,7 +9,6 @@
 * Models - BLOCKED
 
 # Ryuka Rymodel Ryunit:
-* Add message for activation
 * Models - BLOCKED
 
 # Budjolt Shockatiel Raucatoo:
@@ -33,17 +32,11 @@
 * No progress yet - BLOCKED
 
 # Larvibon Skellicraw Bonemare
-* Modify language files
-* Skellicraw data
-* Bonemare data
-* Moves
-* Spawn data
-* Ability
-* Models
+* Moves - BLOCKED
+* Models - BLOCKED
 
 Unsubmitted fakemon: 6
 
 # Other
 ## Moves
 * Open second round of moves close to Server release - BLOCKED
-* Check pack compatibility with 1.8

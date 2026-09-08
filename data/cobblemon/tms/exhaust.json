@@ -1,0 +1,23 @@
+{
+  "moveName": "exhaust",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:unlockable"
+    }
+  ],
+  "type": "fire",
+  "recipe": [
+    {
+      "item": "cobblemon:fire_gem",
+      "count": 6
+    },
+    {
+      "item": "cobblemon:shed_shell",
+      "count": 1
+    },
+    {
+      "item": "cobblemon:magmarizer",
+      "count": 1
+    }
+  ]
+}

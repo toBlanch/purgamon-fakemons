@@ -1,0 +1,19 @@
+{
+  "moveName": "boulderbash",
+  "obtainMethods": [
+    {
+      "variant": "cobblemon:unlockable"
+    }
+  ],
+  "type": "rock",
+  "recipe": [
+    {
+      "item": "cobblemon:rock_gem",
+      "count": 5
+    },
+    {
+      "item": "cobblemon:fighting_gem",
+      "count": 3
+    }
+  ]
+}
