@@ -1,6 +1,3 @@
-# Averi Averon Averist
-* Feather Barrage rework again
-
 # Baitellapup Lupsostrial Selcanirave:
 * Currently Arcanine clone - BLOCKED
 * Spawn data - BLOCKED
