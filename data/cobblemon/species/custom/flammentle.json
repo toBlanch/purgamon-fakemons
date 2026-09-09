@@ -168,7 +168,6 @@
       "result": "blazeufel",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "banefulbunker",
         "flamethrower"
       ],
       "requirements": [

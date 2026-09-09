@@ -5,7 +5,7 @@
     category: "Status",
     name: "Cleave",
     pp: 10,
-    priority: 1,
+    priority: 4,
     flags: { noassist: 1, failcopycat: 1 },
     stallingMove: true,
     volatileStatus: "cleave",
