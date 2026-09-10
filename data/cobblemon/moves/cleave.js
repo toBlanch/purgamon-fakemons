@@ -31,7 +31,7 @@
     },
     secondary: null,
     target: "self",
-    type: "Normal",
+    type: "Rock",
     zMove: { effect: "clearnegativeboost" },
     contestType: "Tough"
 })
