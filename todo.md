@@ -23,4 +23,4 @@ Unsubmitted fakemon: 6
 # Other
 ## Moves
 * Open second round of moves close to Server release - BLOCKED
-* Redo Crystalline Snare - BLOCKED
+* Look into isNonstandard

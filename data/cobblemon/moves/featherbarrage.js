@@ -7,7 +7,7 @@
     priority: 0,
     flags: { protect: 1, mirror: 1, metronome: 1 },
     onTryMove(attacker, defender, move) {
-        if(!this.queue.willMove(defender)){
+        if (!this.queue.willMove(defender)) {
             if (defender.lastMove) {
                 move.multihit = 1;
             }
