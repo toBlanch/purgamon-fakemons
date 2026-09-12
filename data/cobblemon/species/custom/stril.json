@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 1519,
+  "name": "Stril",
+  "primaryType": "Steel",
+  "secondaryType": "Flying",
+  "maleRatio": 0.5,
+  "height": 4,
+  "weight": 1,
+  "pokedex": [
+    "cobblemon.species.stril.desc"
+  ],
+  "labels": [
+    "genpurg"
+  ],
+  "aspects": [],
+  "abilities": [
+    "unaware"
+  ],
+  "eggGroups": [
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 64,
+  "experienceGroup": 1,
+  "catchRate": 1,
+  "eggCycles": 1,
+  "baseFriendship": 1,
+  "shoulderMountable": true,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": false
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "willSleepOnBed": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "combat": {
+      "willDefendOwner": false
+    }
+  },
+  "moves": [
+    "1:tackle"
+  ],
+  "evolutions": [
+    {
+      "id": "stril_nospera",
+      "variant": "item_interact",
+      "result": "nospera",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    },
+    {
+      "id": "stril_atharfang",
+      "variant": "item_interact",
+      "result": "atharfang",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:dawn_stone"
+    },
+    {
+      "id": "stril_vactua",
+      "variant": "trade",
+      "result": "vactua",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:reaper_cloth"
+        }
+      ]
+    }
+  ]
+}

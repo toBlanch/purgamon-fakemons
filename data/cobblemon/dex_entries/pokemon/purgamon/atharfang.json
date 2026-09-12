@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:atharfang",
+  "speciesId": "cobblemon:atharfang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
